@@ -134,4 +134,3 @@
     - `sed`: Stream editor for filtering and transforming text.
       - Example: `sed 's/old/new/' file.txt`
 
-These examples cover a wide range of common operations performed in a Linux environment using various commands.
