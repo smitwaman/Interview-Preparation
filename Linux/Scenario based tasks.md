@@ -149,4 +149,4 @@ Scenario-based practice tasks for Linux along with steps and commands:
       sudo docker run -d -p 80:80 --name mynginx nginx
       ```
 
-These steps and commands provide a practical approach to performing various tasks in a Linux environment. You can practice these scenarios on a Linux machine or a virtual machine to improve your skills.
+
