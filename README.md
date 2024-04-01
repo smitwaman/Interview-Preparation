@@ -14,4 +14,5 @@ DevOps profile engineer has following tasks during their operations.
 10. Create logs and dump files for analysis.
 11. Upgrade deployment with strategies.
 12. Automated CICD pipeline.
+13. Write files for infrastructure management IaC.
 
