@@ -1,0 +1,35 @@
+**Module 7: Advanced Topics**
+
+**Working with arrays:**
+Arrays in Bash scripting allow storing multiple values under a single variable name. They are useful for storing and manipulating collections of data.
+
+Example of working with arrays:
+```bash
+#!/bin/bash
+
+# Declare an array
+my_array=(apple banana cherry)
+
+# Access elements of the array
+echo "${my_array[0]}"  # Output: apple
+
+# Iterate over the array
+for fruit in "${my_array[@]}"; do
+    echo "$fruit"
+done
+```
+
+**Advanced scripting techniques (subshells, command substitution):**
+Subshells and command substitution are advanced scripting techniques used to execute commands within a script and capture their output.
+
+Example of subshells and command substitution:
+```bash
+#!/bin/bash
+
+# Subshell example
+echo "Current directory: $(pwd)"
+
+# Command substitution example
+files_count=$(ls | wc -l)
+echo "Number of files in the directory: $files_count"
+```
