@@ -1,6 +1,6 @@
 Scenario-based questions related to AWS custom VPC (Virtual Private Cloud):
 
--**Scenario**: Your company requires a custom network configuration in AWS to ensure isolation and control over resources. How would you design a custom VPC to meet these requirements?
+- 1. **Scenario**: Your company requires a custom network configuration in AWS to ensure isolation and control over resources. How would you design a custom VPC to meet these requirements?
    - **Question**: Describe your approach to designing a custom VPC in AWS to achieve isolation and control over resources while meeting the company's specific network requirements.
 
 To design a custom VPC in AWS that achieves isolation and control over resources while meeting the company's specific network requirements, I would follow these steps:
@@ -27,8 +27,8 @@ To design a custom VPC in AWS that achieves isolation and control over resources
 
 By following these steps, the custom VPC design can effectively achieve isolation and control over resources while aligning with the company's specific network requirements, ensuring a secure, scalable, and compliant infrastructure in AWS.
 
-=====================================================================
--2. **Scenario**: Your organization operates multiple applications with varying security and compliance requirements. How would you use AWS custom VPCs to segregate these applications and enforce security boundaries?
+=====================================================
+- 2. **Scenario**: Your organization operates multiple applications with varying security and compliance requirements. How would you use AWS custom VPCs to segregate these applications and enforce security boundaries?
    - **Question**: Explain how you would utilize AWS custom VPCs to segregate applications with different security and compliance requirements, ensuring proper isolation and security controls.
 
 To segregate applications with different security and compliance requirements using AWS custom VPCs, I would follow these steps:
@@ -58,10 +58,64 @@ By following these steps, AWS custom VPCs can effectively segregate applications
 
 
 
-=====================================================================
--3. **Scenario**: You need to establish a VPN connection between your on-premises data center and AWS for secure communication. How would you configure a custom VPC to facilitate this VPN connection?
+=======================================================
+- 3. **Scenario**: You need to establish a VPN connection between your on-premises data center and AWS for secure communication. How would you configure a custom VPC to facilitate this VPN connection?
    - **Question**: Walk me through the steps involved in configuring a custom VPC in AWS to establish a VPN connection with an on-premises data center, ensuring secure communication between the environments.
-=====================================================================
+
+
+Certainly! Here's a step-by-step guide to configuring a custom VPC in AWS to establish a VPN connection with an on-premises data center:
+
+1. **Create a Custom VPC**:
+   - Log in to the AWS Management Console.
+   - Navigate to the VPC dashboard.
+   - Click on "Create VPC" and enter the required details such as name, IPv4 CIDR block, and optionally IPv6 CIDR block.
+   - Ensure that the CIDR block for the VPC does not overlap with the IP addresses used in your on-premises network.
+
+2. **Create Subnets**:
+   - Within the newly created VPC, create at least two subnets: one public subnet and one private subnet.
+   - Assign appropriate CIDR blocks to each subnet based on your network requirements.
+   - Designate the public subnet for resources that require direct internet access and the private subnet for internal resources.
+
+3. **Set Up Internet Gateway (IGW)**:
+   - Create an internet gateway and attach it to the VPC.
+   - This allows resources in the public subnet to communicate with the internet.
+
+4. **Create Route Tables**:
+   - Create separate route tables for the public and private subnets.
+   - Configure the public route table to route internet-bound traffic to the internet gateway.
+   - Configure the private route table to route internal traffic within the VPC and traffic destined for the on-premises network to a virtual private gateway (VGW) (to be set up later).
+
+5. **Allocate and Configure Elastic IP Addresses (EIP)**:
+   - Allocate an Elastic IP address to be associated with the virtual private gateway (VGW).
+   - This static public IP address is used for the VPN connection.
+
+6. **Create a Virtual Private Gateway (VGW)**:
+   - Create a virtual private gateway and attach it to the VPC.
+   - This VGW serves as the VPN endpoint on the AWS side.
+
+7. **Configure Customer Gateway (CGW)**:
+   - In the AWS Management Console, navigate to the VPC dashboard.
+   - Click on "Customer Gateways" and then "Create Customer Gateway".
+   - Enter the required information, including the public IP address of the on-premises VPN device and the ASN (Autonomous System Number).
+
+8. **Create VPN Connection**:
+   - In the VPC dashboard, navigate to "VPN Connections" and click on "Create VPN Connection".
+   - Specify the virtual private gateway (VGW) and customer gateway (CGW) created earlier.
+   - Choose the appropriate routing options (static or dynamic routing).
+   - Configure the VPN connection with pre-shared keys and encryption/authentication settings.
+
+9. **Update Route Tables**:
+   - Update the route tables associated with the private subnet(s) to route traffic destined for the on-premises network to the VPN connection.
+   - Add a route to the private route table(s) with the destination CIDR block of the on-premises network and the target as the VPN connection.
+
+10. **Test and Monitor**:
+    - Validate the VPN connection by testing connectivity between resources in the VPC and the on-premises network.
+    - Monitor the VPN connection status in the AWS Management Console to ensure it remains active and stable.
+
+By following these steps, you can configure a custom VPC in AWS to establish a VPN connection with an on-premises data center, ensuring secure communication between the environments.
+
+
+======================================================
 4. **Scenario**: Your company is expanding its operations globally and requires a network architecture that can accommodate geographically distributed resources. How would you design a custom VPC solution to support this expansion while optimizing performance and minimizing latency?
    - **Question**: Discuss your strategy for designing a custom VPC solution in AWS to support a globally distributed network architecture, focusing on optimizing performance and minimizing latency for geographically dispersed resources.
 =====================================================================
