@@ -5,7 +5,7 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Copy the Python files and requirements.txt into the container at /app
-COPY main.py snake.py food.py /app/
+COPY *.py /app/
 COPY requirements.txt /app/
 
 # Install project dependencies
