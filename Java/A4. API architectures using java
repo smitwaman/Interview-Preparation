@@ -1,5 +1,6 @@
 Advanced Java architecture involves building complex and scalable applications using various advanced technologies and frameworks. Here's an explanation of key topics in advanced Java architecture:
 
+
 1. **Networking**:
    - **Socket Programming**: Java provides robust support for networking through classes like `Socket` and `ServerSocket`. Socket programming enables communication between client and server applications over a network.
    - **URL Handling**: Java's `URL` and `URLConnection` classes allow developers to handle URLs and establish connections to web resources.
