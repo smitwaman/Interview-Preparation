@@ -66,6 +66,7 @@ By architecting the EC2 instances with Multi-AZ deployment, Auto Scaling groups,
 
 
 ============================================
+
 3. **Scenario 3: Cost Optimization**:
    Your organization wants to optimize costs for its EC2 instances. How would you recommend minimizing costs while maintaining performance?
 
