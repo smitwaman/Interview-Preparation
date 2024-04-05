@@ -55,5 +55,16 @@ Here, we will use following architectures in docker for communicating hosts,amon
    - Docker provides a special `none` network mode where containers have no network connectivity.
    - Containers in `none` network mode are isolated from all network traffic, including loopback interfaces.
 
+Working of inside network architecture:
+
+for bridge network,
+Here bridge is main architecture used for managementment of ip packet routing from docker to containers.
+
+After container creation, bridge network assigned port and use virtual ethernet in program form for it.
+It used it for communicating container with IP:Port form.
+
+Every container has connection with bridge network and bridge network has connection with Docker and in final stage Docker has connection with actual ethernet port in form of IP and Port.
+
+CONTAINER VIRTUAL ETHERNET PORT➡️ CONTAINER (IP:PORT)➡️BRIDGE NETWORK➡️DOCKERHOST➡️SERVER ETHERNET(IP:2375)
 
 
