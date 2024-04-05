@@ -68,6 +68,129 @@ By following these steps and using the provided configuration files, you can dep
 
 4. **Scenario: Dependency Management**
    - Task: Your application depends on external services such as databases, message queues, and caching systems. You want to manage these dependencies using Helm charts to simplify deployment and versioning.
+To perform a rollback with Helm, you don't directly modify YAML files; instead, you use Helm commands to manage releases. However, to illustrate the rollback process more effectively, let's include example YAML files representing the Kubernetes resources managed by Helm:
+
+Assuming we have a Helm chart for a simple application with the following directory structure:
+
+```
+myapp-chart/
+├── Chart.yaml
+├── values.yaml
+├── templates/
+│   ├── deployment.yaml
+│   ├── service.yaml
+│   └── ingress.yaml
+└── tests/
+    └── test-connection.yaml
+```
+
+Here's what each file contains:
+
+1. **Chart.yaml**: Metadata file for the Helm chart.
+   ```yaml
+   apiVersion: v2
+   name: myapp
+   version: 1.0.0
+   ```
+
+2. **values.yaml**: Default configuration values for the Helm chart.
+   ```yaml
+   replicaCount: 3
+   image:
+     repository: myapp
+     tag: 1.0.0
+     pullPolicy: IfNotPresent
+   ```
+
+3. **deployment.yaml**: Kubernetes deployment manifest template.
+   ```yaml
+   apiVersion: apps/v1
+   kind: Deployment
+   metadata:
+     name: {{ include "myapp.fullname" . }}
+     labels:
+       app: {{ include "myapp.name" . }}
+       chart: {{ include "myapp.chart" . }}
+   spec:
+     replicas: {{ .Values.replicaCount }}
+     selector:
+       matchLabels:
+         app: {{ include "myapp.name" . }}
+         release: {{ .Release.Name }}
+     template:
+       metadata:
+         labels:
+           app: {{ include "myapp.name" . }}
+           release: {{ .Release.Name }}
+       spec:
+         containers:
+           - name: {{ .Chart.Name }}
+             image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+             imagePullPolicy: {{ .Values.image.pullPolicy }}
+             ports:
+               - containerPort: 80
+   ```
+
+4. **service.yaml**: Kubernetes service manifest template.
+   ```yaml
+   apiVersion: v1
+   kind: Service
+   metadata:
+     name: {{ include "myapp.fullname" . }}
+     labels:
+       app: {{ include "myapp.name" . }}
+       chart: {{ include "myapp.chart" . }}
+   spec:
+     selector:
+       app: {{ include "myapp.name" . }}
+       release: {{ .Release.Name }}
+     ports:
+       - protocol: TCP
+         port: 80
+         targetPort: 80
+   ```
+
+5. **ingress.yaml**: Kubernetes ingress manifest template (optional).
+   ```yaml
+   apiVersion: networking.k8s.io/v1
+   kind: Ingress
+   metadata:
+     name: {{ include "myapp.fullname" . }}
+     labels:
+       app: {{ include "myapp.name" . }}
+       chart: {{ include "myapp.chart" . }}
+   spec:
+     rules:
+       - host: {{ .Values.ingress.host }}
+         http:
+           paths:
+             - path: /
+               pathType: Prefix
+               backend:
+                 service:
+                   name: {{ include "myapp.fullname" . }}
+                   port:
+                     number: 80
+   ```
+
+6. **test-connection.yaml**: Helm test manifest template (for testing connection to the application).
+   ```yaml
+   apiVersion: v1
+   kind: Pod
+   metadata:
+     name: "{{ .Release.Name }}-test-connection"
+     labels:
+       app.kubernetes.io/name: {{ include "myapp.name" . }}
+       helm.sh/chart: {{ include "myapp.chart" . }}
+   spec:
+     containers:
+       - name: test-connection
+         image: busybox
+         command: ['sh', '-c', 'echo Success']
+   ```
+
+When performing a rollback, you won't directly interact with these YAML files. Instead, you'll use Helm commands like `helm rollback` to manage releases. The YAML files are templates that Helm uses to generate Kubernetes manifests during deployment. The rollback process ensures that the previous stable version specified in the Helm release history is applied to the Kubernetes cluster, effectively reverting any changes made by the most recent upgrade.
+
 ---------------------------
 5. **Scenario: Multi-environment Deployment**
    - Task: You manage multiple Kubernetes clusters across different environments (e.g., development, staging, production), and you want to standardize the deployment process using Helm charts. Each environment has specific configuration settings and resource limits.
