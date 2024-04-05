@@ -1,4 +1,39 @@
 Writing a `pom.xml` file involves several steps to configure your Maven project properly. Here's a step-by-step guide:
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    
+    <!-- Project coordinates -->
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.example</groupId>
+    <artifactId>my-project</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <name>My Project</name>
+    <description>A brief description of my project.</description>
+    <url>http://example.com</url>
+    
+    <!-- Project properties -->
+    <properties>
+        <java.version>1.8</java.version>
+        <!-- Add more properties as needed -->
+    </properties>
+    
+    <!-- Project dependencies -->
+    <dependencies>
+        <!-- Add dependencies here -->
+    </dependencies>
+    
+    <!-- Build settings -->
+    <build>
+        <!-- Plugins and configurations for the build process -->
+        <plugins>
+            <!-- Add build plugins here -->
+        </plugins>
+    </build>
+</project>
+```
 
 1. **Define the Project Coordinates:**
    - Open a text editor and start by specifying the basic project information, including the group ID, artifact ID, and version.
