@@ -1,4 +1,27 @@
-Docker networking allows communication between Docker containers running on the same host or across multiple hosts. It enables applications to interact with each other, share data, and access external resources. Docker provides various networking options to suit different use cases and network environments. Here's a detailed explanation of Docker networking:
+In Docker we will deal with two types of port
+1. Virtual ethernet
+2. Ethernet
+
+for transfer of IP packet over internet network.
+As we know docker runs in virtual environment and shear network resources at operating system layer also.
+Here Docker will shear ethernet port for internet communication with externel world.
+
+There is port range from 0 to 65656 
+
+from which some ports pre-assigned for fuctioning of server specific operations of local system IP.
+
+The basic port used for running Docker on a system is 2375 for unencrypted communication and 2376 for encrypted communication using TLS (Transport Layer Security). These ports are used for communication between the Docker client and the Docker daemon (server). 
+
+By default, Docker listens on a Unix socket (`/var/run/docker.sock`) for communication between the Docker client and server. However, if you configure Docker to listen on TCP sockets for remote API access, it will use port 2375 or 2376 for communication.
+
+Here's a summary of the ports used by Docker:
+
+- **2375**: Default port for unencrypted communication between the Docker client and server.
+- **2376**: Default port for encrypted communication (TLS) between the Docker client and server.
+
+
+## Now lets enter into inside network of Docker.
+Here, we will use following architectures in docker for communicating hosts,among hosts, containers or among containers.
 
 1. **Default Bridge Network**:
    - When Docker is installed, it creates a default bridge network named `bridge`.
@@ -31,3 +54,6 @@ Docker networking allows communication between Docker containers running on the 
 6. **None Network**:
    - Docker provides a special `none` network mode where containers have no network connectivity.
    - Containers in `none` network mode are isolated from all network traffic, including loopback interfaces.
+
+
+
