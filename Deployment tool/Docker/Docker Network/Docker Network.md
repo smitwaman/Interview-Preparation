@@ -65,6 +65,6 @@ It used it for communicating container with IP:Port form.
 
 Every container has connection with bridge network and bridge network has connection with Docker and in final stage Docker has connection with actual ethernet port in form of IP and Port.
 
-CONTAINER VIRTUAL ETHERNET PORT➡️ CONTAINER (IP:PORT)➡️BRIDGE NETWORK➡️DOCKERHOST➡️SERVER ETHERNET(IP:2375)
+# CONTAINER VIRTUAL ETHERNET PORT➡️ CONTAINER (IP:PORT)➡️BRIDGE NETWORK➡️DOCKERHOST➡️SERVER ETHERNET(IP:2375)
 
 
