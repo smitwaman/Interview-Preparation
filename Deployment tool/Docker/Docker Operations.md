@@ -14,10 +14,6 @@ To write a Dockerfile for your application, follow these general steps:
 
 1. **Choose a Base Image**: Select a base image that provides the runtime environment for your application. You can choose from official images on Docker Hub or create your own base image if needed.
 
-ex:
-# Use an official Node.js image as the base image
-FROM node:14
-
 
 2. **Set up Environment**: Configure the environment variables, working directory, and any other environment settings required by your application.
 
