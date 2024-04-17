@@ -1,4 +1,10 @@
-Host a static website on AWS using the AWS Management Console:
+# Project Name: Static Website Hosting
+
+# Aim
+Host a static website on AWS.
+
+# Building Steps
+Sure, here's a detailed step-by-step guide to host a static website on AWS using the AWS Management Console:
 
 ### Tools and Prerequisites
 - AWS Account
