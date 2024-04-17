@@ -4,13 +4,13 @@ This repository contains a collection of AWS cloud projects with descriptions an
 
 ## Projects
 
-11. [CloudFront CDN Setup](11.%20CloudFront%20CDN%20Setup)
-12. [Lambda Functions with S3 Triggers](12.%20Lambda%20Functions%20with%20S3%20Triggers)
-13. [API Gateway for Microservices](13.%20API%20Gateway%20for%20Microservices)
-14. [Auto Scaling with EC2](14.%20Auto%20Scaling%20with%20EC2)
-15. [IAM Identity and Access Management](15.%20IAM%20Identity%20and%20Access%20Management)
-16. [VPC Virtual Private Cloud](16.%20VPC%20Virtual%20Private%20Cloud)
-17. [ElastiCache Redis for Caching](17.%20ElastiCache%20Redis%20for%20Caching)
-18. [CloudWatch Monitoring and Alarms](18.%20CloudWatch%20Monitoring%20and%20Alarms)
-19. [Kinesis Data Streaming](19.%20Kinesis%20Data%20Streaming)
-20. [S3 Data Lake](20.%20S3%20Data%20Lake)
+11. [CloudFront CDN Setup](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_11)
+12. [Lambda Functions with S3 Triggers](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_12)
+13. [API Gateway for Microservices](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_13)
+14. [Auto Scaling with EC2](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_14)
+15. [IAM Identity and Access Management](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_15)
+16. [VPC Virtual Private Cloud](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_16)
+17. [ElastiCache Redis for Caching](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_17)
+18. [CloudWatch Monitoring and Alarms](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_18)
+19. [Kinesis Data Streaming](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_19)
+20. [S3 Data Lake](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_20)
