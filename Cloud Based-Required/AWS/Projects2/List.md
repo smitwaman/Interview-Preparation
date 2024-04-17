@@ -63,7 +63,7 @@ This repository contains a collection of AWS cloud projects with descriptions an
 33. [Lambda Layers for Code Reusability](33.%20Lambda%20Layers%20for%20Code%20Reusability)
 34. [Transcribe for Speech to Text](34.%20Transcribe%20for%20Speech%20to%20Text)
 35. [AppSync GraphQL API](35.%20AppSync%20GraphQL%20API)
-36. [EFS File Storage](36.%20EFS%20File%20Storage)
+36. [EFS File Storage](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_9)
 37. [Redshift Data Warehouse](37.%20Redshift%20Data%20Warehouse)
 38. [Elasticsearch Kibana for Analytics](38.%20Elasticsearch%20Kibana%20for%20Analytics)
 39. [API Gateway Websockets](39.%20API%20Gateway%20Websockets)
