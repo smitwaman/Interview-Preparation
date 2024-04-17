@@ -49,7 +49,7 @@ This repository contains a collection of AWS cloud projects with descriptions an
 27. [S3 Versioning and Lifecycle Policies](27.%20S3%20Versioning%20and%20Lifecycle%20Policies)
 28. [Athena for Interactive Querying](28.%20Athena%20for%20Interactive%20Querying)
 29. [Cognito User Pools for Authentication](29.%20Cognito%20User%20Pools%20for%20Authentication)
-30. [Glue ETL Jobs for Data Transformation](30.%20Glue%20ETL%20Jobs%20for%20Data%20Transformation)
+30. [Glue ETL Jobs for Data Transformation](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_24)
 
 
 # AWS Cloud Projects (Set 4)
