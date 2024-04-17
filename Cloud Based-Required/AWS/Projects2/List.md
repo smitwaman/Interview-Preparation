@@ -79,7 +79,7 @@ This repository contains a collection of AWS cloud projects with descriptions an
 41. [Dynamic Website with EC2](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_2)
 42. [Load Balancing](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_3)
 43. [Container Orchestration With ECS](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_10)
-34. [Transcribe for Speech to Text](34.%20Transcribe%20for%20Speech%20to%20Text)
+44. [Serverless API using state functions](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_11)
 35. [AppSync GraphQL API](35.%20AppSync%20GraphQL%20API)
 36. [EFS File Storage](36.%20EFS%20File%20Storage)
 37. [Redshift Data Warehouse](37.%20Redshift%20Data%20Warehouse)
