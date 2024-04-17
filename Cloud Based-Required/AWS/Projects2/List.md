@@ -5,7 +5,7 @@ This repository contains a collection of AWS cloud projects with descriptions an
 ## Projects
 
 1. [Static Website Hosting](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_1)
-2. [Serverless API with AWS Lambda and API Gateway](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_2)
+2. [Serverless API with AWS Lambda and API Gateway](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_5)
 3. [EC2 Virtual Machine Setup](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_3)
 4. [RDS Database Deployment](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_4)
 5. [S3 Data Storage](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_5)
