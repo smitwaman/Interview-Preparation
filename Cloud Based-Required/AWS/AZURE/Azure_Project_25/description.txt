@@ -1,0 +1,14 @@
+Project Name: Data Visualization with Power BI
+Aim: Create interactive dashboards and reports.
+
+Building Steps:
+1. Set up Power BI workspace.
+2. Connect to data sources.
+3. Design and publish reports.
+
+Tools and Prerequisites:
+- Power BI Desktop
+- Azure services
+
+Required Services:
+- Power BI

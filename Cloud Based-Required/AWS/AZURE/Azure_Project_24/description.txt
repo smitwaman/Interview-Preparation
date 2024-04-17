@@ -1,0 +1,13 @@
+Project Name: Serverless Integration with Logic Apps
+Aim: Integrate services and automate workflows.
+
+Building Steps:
+1. Create Azure Logic App.
+2. Define triggers and actions.
+3. Test and monitor the workflow.
+
+Tools and Prerequisites:
+- Azure CLI
+
+Required Services:
+- Azure Logic Apps

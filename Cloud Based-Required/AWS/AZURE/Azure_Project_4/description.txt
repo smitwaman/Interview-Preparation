@@ -1,0 +1,14 @@
+Project Name: Database Deployment with Azure SQL Database
+Aim: Set up a relational database.
+
+Building Steps:
+1. Create an Azure SQL Database.
+2. Configure database settings.
+3. Connect and manage the database.
+
+Tools and Prerequisites:
+- Azure CLI
+- Database scripts
+
+Required Services:
+- Azure SQL Database

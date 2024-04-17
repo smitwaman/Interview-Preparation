@@ -1,0 +1,13 @@
+Project Name: API Management with Azure API Management
+Aim: Publish, secure, and manage APIs.
+
+Building Steps:
+1. Create Azure API Management instance.
+2. Define APIs, products, and policies.
+3. Test and deploy APIs.
+
+Tools and Prerequisites:
+- Azure CLI
+
+Required Services:
+- Azure API Management

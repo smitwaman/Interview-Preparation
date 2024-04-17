@@ -1,0 +1,13 @@
+Project Name: Virtual Desktop with Azure Virtual Desktop
+Aim: Deliver virtual apps and desktops.
+
+Building Steps:
+1. Set up Azure Virtual Desktop workspace.
+2. Deploy virtual machines.
+3. Publish applications.
+
+Tools and Prerequisites:
+- Azure CLI
+
+Required Services:
+- Azure Virtual Desktop

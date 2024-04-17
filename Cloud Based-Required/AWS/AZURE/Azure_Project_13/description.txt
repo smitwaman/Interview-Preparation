@@ -1,0 +1,13 @@
+Project Name: Data Warehousing with Azure Synapse Analytics
+Aim: Analyze large datasets.
+
+Building Steps:
+1. Create an Azure Synapse Analytics workspace.
+2. Load and query data.
+
+Tools and Prerequisites:
+- Azure CLI
+- Data source
+
+Required Services:
+- Azure Synapse Analytics

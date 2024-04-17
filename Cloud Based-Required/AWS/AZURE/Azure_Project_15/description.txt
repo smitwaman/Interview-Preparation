@@ -1,0 +1,12 @@
+Project Name: Networking with Azure Virtual Network
+Aim: Connect and isolate resources.
+
+Building Steps:
+1. Create an Azure Virtual Network.
+2. Define subnets, NSGs, and routing.
+
+Tools and Prerequisites:
+- Azure CLI
+
+Required Services:
+- Azure Virtual Network

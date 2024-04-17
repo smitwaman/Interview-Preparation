@@ -1,0 +1,14 @@
+Project Name: API Gateway with Azure API Gateway
+Aim: Build, secure, and manage APIs.
+
+
+Building Steps:
+1. Create Azure API Gateway instance.
+2. Define APIs, operations, and policies.
+3. Test and deploy APIs.
+
+Tools and Prerequisites:
+- Azure CLI
+
+Required Services:
+- Azure API Gateway

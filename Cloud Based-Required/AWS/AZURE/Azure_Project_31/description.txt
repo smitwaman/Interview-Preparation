@@ -1,0 +1,13 @@
+Project Name: Backup and Recovery with Azure Backup
+Aim: Protect data and applications.
+
+Building Steps:
+1. Set up Azure Backup vault.
+2. Configure backup policies.
+3. Restore data when needed.
+
+Tools and Prerequisites:
+- Azure CLI
+
+Required Services:
+- Azure Backup

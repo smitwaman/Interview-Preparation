@@ -1,0 +1,14 @@
+Project Name: Big Data Analytics with Azure HDInsight
+Aim: Analyze large datasets using big data technologies.
+
+Building Steps:
+1. Create Azure HDInsight cluster.
+2. Deploy and manage big data applications.
+3. Run analytics jobs.
+
+Tools and Prerequisites:
+- Azure CLI
+- Big data tools
+
+Required Services:
+- Azure HDInsight

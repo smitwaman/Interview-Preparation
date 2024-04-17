@@ -1,0 +1,13 @@
+Project Name: Data Lake with Azure Data Lake Storage
+Aim: Store and analyze big data.
+
+Building Steps:
+1. Create Azure Data Lake Storage account.
+2. Configure file systems and directories.
+3. Upload and process data.
+
+Tools and Prerequisites:
+- Azure CLI
+
+Required Services:
+- Azure Data Lake Storage

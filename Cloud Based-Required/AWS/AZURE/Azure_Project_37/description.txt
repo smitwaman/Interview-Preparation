@@ -1,0 +1,13 @@
+Project Name: Data Factory for ETL Processes
+Aim: Extract, transform, and load data.
+
+Building Steps:
+1. Set up Azure Data Factory instance.
+2. Define data sources, transformations, and sinks.
+3. Execute and monitor pipelines.
+
+Tools and Prerequisites:
+- Azure CLI
+
+Required Services:
+- Azure Data Factory

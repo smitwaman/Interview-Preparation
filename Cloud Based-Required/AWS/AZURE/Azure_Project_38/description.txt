@@ -1,0 +1,13 @@
+Project Name: Identity Management with Azure AD B2C
+Aim: Provide identity solutions for customer-facing apps.
+
+Building Steps:
+1. Set up Azure AD B2C tenant.
+2. Configure user flows and policies.
+3. Integrate with applications.
+
+Tools and Prerequisites:
+- Azure CLI
+
+Required Services:
+- Azure AD B2C

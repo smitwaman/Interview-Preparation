@@ -1,0 +1,13 @@
+Project Name: IoT Hub for IoT Solutions
+Aim: Manage and monitor IoT devices.
+
+Building Steps:
+1. Create an Azure IoT Hub.
+2. Register and manage devices.
+3. Send and receive messages.
+
+Tools and Prerequisites:
+- Azure CLI
+
+Required Services:
+- Azure IoT Hub

@@ -1,0 +1,14 @@
+Project Name: CI/CD with Azure DevOps
+Aim: Implement continuous integration and deployment.
+
+Building Steps:
+1. Set up Azure DevOps project.
+2. Configure pipelines.
+3. Build and deploy code.
+
+Tools and Prerequisites:
+- Azure CLI
+- Azure DevOps account
+
+Required Services:
+- Azure DevOps

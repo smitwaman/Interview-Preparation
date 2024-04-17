@@ -1,0 +1,13 @@
+Project Name: Data Streaming with Azure Stream Analytics
+Aim: Process and analyze real-time data streams.
+
+Building Steps:
+1. Create Azure Stream Analytics job.
+2. Define input, query, and output.
+3. Run and monitor the job.
+
+Tools and Prerequisites:
+- Azure CLI
+
+Required Services:
+- Azure Stream Analytics

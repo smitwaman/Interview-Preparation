@@ -1,0 +1,13 @@
+Project Name: Monitoring with Azure Monitor
+Aim: Monitor Azure resources and applications.
+
+Building Steps:
+1. Set up Azure Monitor.
+2. Create and configure monitoring alerts.
+3. Review metrics and logs.
+
+Tools and Prerequisites:
+- Azure CLI
+
+Required Services:
+- Azure Monitor

@@ -1,0 +1,13 @@
+Project Name: Identity Protection with Azure Active Directory Identity Protection
+Aim: Detect and respond to identity risks.
+
+Building Steps:
+1. Set up Azure AD Identity Protection.
+2. Configure risk policies.
+3. Monitor and remediate risks.
+
+Tools and Prerequisites:
+- Azure CLI
+
+Required Services:
+- Azure Active Directory (AD) Identity Protection

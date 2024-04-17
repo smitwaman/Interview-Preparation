@@ -1,0 +1,16 @@
+Project Name: Static Website Hosting
+Aim: Host a static website on Azure.
+
+Building Steps:
+1. Create an Azure Storage Account.
+2. Upload website files to the storage account.
+3. Configure static website hosting in the storage account.
+4. Optionally, use Azure CDN for content delivery.
+
+Tools and Prerequisites:
+- Azure CLI
+- Website files
+
+Required Services:
+- Azure Storage Account
+- Azure CDN (optional)

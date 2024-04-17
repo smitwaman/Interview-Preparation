@@ -1,0 +1,13 @@
+Project Name: Hybrid Cloud with Azure Arc
+Aim: Manage on-premises and cloud resources from Azure.
+
+Building Steps:
+1. Set up Azure Arc.
+2. Connect and manage hybrid resources.
+3. Apply Azure management capabilities.
+
+Tools and Prerequisites:
+- Azure CLI
+
+Required Services:
+- Azure Arc

@@ -1,0 +1,13 @@
+Project Name: CDN with Azure Front Door
+Aim: Accelerate global application delivery.
+
+Building Steps:
+1. Create Azure Front Door instance.
+2. Configure routing and load balancing.
+3. Optimize content delivery.
+
+Tools and Prerequisites:
+- Azure CLI
+
+Required Services:
+- Azure Front Door

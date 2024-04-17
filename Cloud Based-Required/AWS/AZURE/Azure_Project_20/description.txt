@@ -1,0 +1,14 @@
+Project Name: AI Infrastructure with Azure Machine Learning
+Aim: Build and deploy machine learning models.
+
+Building Steps:
+1. Set up Azure Machine Learning workspace.
+2. Develop and train machine learning models.
+3. Deploy models as web services.
+
+Tools and Prerequisites:
+- Azure CLI
+- Machine learning data
+
+Required Services:
+- Azure Machine Learning

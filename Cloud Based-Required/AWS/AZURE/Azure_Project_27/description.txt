@@ -1,0 +1,13 @@
+Project Name: Database Scalability with Cosmos DB
+Aim: Achieve global distribution and high availability.
+
+Building Steps:
+1. Create Azure Cosmos DB account.
+2. Choose API (e.g., SQL, MongoDB).
+3. Configure and manage data.
+
+Tools and Prerequisites:
+- Azure CLI
+
+Required Services:
+- Azure Cosmos DB

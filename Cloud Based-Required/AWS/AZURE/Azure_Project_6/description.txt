@@ -1,0 +1,13 @@
+Project Name: Blob Storage with Azure Blob Storage
+Aim: Store and retrieve files.
+
+Building Steps:
+1. Create an Azure Storage Account.
+2. Set up Blob containers.
+3. Upload and manage files.
+
+Tools and Prerequisites:
+- Azure CLI
+
+Required Services:
+- Azure Blob Storage

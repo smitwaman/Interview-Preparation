@@ -1,0 +1,13 @@
+Project Name: Serverless Functions with Azure Functions
+Aim: Create serverless functions.
+
+Building Steps:
+1. Create an Azure Functions App.
+2. Develop and deploy functions.
+
+Tools and Prerequisites:
+- Azure CLI
+- Function code
+
+Required Services:
+- Azure Functions

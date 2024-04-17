@@ -1,0 +1,15 @@
+Project Name: Virtual Machines Setup
+Aim: Deploy virtual machines on Azure.
+
+Building Steps:
+1. Create a Virtual Network.
+2. Launch Azure Virtual Machines.
+3. Configure security settings.
+
+Tools and Prerequisites:
+- Azure CLI
+- Virtual Machine setup files
+
+Required Services:
+- Azure Virtual Machines
+- Virtual Network

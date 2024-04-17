@@ -1,0 +1,13 @@
+Project Name: Data Migration with Azure Data Migration Service
+Aim: Migrate databases to Azure.
+
+Building Steps:
+1. Set up Azure Data Migration Service.
+2. Configure source and target databases.
+3. Perform migration.
+
+Tools and Prerequisites:
+- Azure CLI
+
+Required Services:
+- Azure Data Migration Service

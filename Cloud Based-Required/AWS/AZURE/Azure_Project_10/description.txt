@@ -1,0 +1,14 @@
+Project Name: Container Orchestration with Azure Kubernetes Service (AKS)
+Aim: Deploy and manage Docker containers.
+
+Building Steps:
+1. Create an AKS cluster.
+2. Deploy applications using YAML manifests.
+
+Tools and Prerequisites:
+- Azure CLI
+- Docker
+- Kubernetes manifests
+
+Required Services:
+- Azure Kubernetes Service (AKS)

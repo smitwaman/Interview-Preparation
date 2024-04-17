@@ -1,0 +1,13 @@
+Project Name: Event-Driven Architecture with Azure Event Grid
+Aim: React to events from Azure services.
+
+Building Steps:
+1. Create Azure Event Grid topic.
+2. Subscribe to events.
+3. Handle events in applications.
+
+Tools and Prerequisites:
+- Azure CLI
+
+Required Services:
+- Azure Event Grid

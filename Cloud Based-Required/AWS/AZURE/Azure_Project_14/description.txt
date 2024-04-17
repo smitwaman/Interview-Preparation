@@ -1,0 +1,12 @@
+Project Name: Identity and Access Management (IAM) with Azure AD
+Aim: Manage user identities and access.
+
+Building Steps:
+1. Set up Azure AD.
+2. Configure users, groups, and roles.
+
+Tools and Prerequisites:
+- Azure CLI
+
+Required Services:
+- Azure Active Directory (AD)

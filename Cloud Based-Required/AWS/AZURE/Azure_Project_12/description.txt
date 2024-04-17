@@ -1,0 +1,13 @@
+Project Name: AI Services with Azure Cognitive Services
+Aim: Integrate AI capabilities.
+
+Building Steps:
+1. Create a Cognitive Services resource.
+2. Choose desired services (e.g., Vision, Speech).
+3. Integrate with application.
+
+Tools and Prerequisites:
+- Azure CLI
+
+Required Services:
+- Azure Cognitive Services

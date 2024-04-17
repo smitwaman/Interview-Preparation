@@ -1,0 +1,13 @@
+Project Name: Event Hubs for Real-time Data Streaming
+Aim: Ingest and process large-scale event data.
+
+Building Steps:
+1. Create Azure Event Hubs namespace.
+2. Define event hubs and partitions.
+3. Send and receive events.
+
+Tools and Prerequisites:
+- Azure CLI
+
+Required Services:
+- Azure Event Hubs

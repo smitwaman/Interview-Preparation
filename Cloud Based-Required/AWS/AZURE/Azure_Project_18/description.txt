@@ -1,0 +1,13 @@
+Project Name: Content Management with Azure Content Delivery Network (CDN)
+Aim: Manage and deliver content efficiently.
+
+Building Steps:
+1. Create Azure CDN profile.
+2. Configure CDN settings.
+3. Link to content source.
+
+Tools and Prerequisites:
+- Azure CLI
+
+Required Services:
+- Azure CDN

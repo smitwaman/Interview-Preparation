@@ -1,0 +1,13 @@
+Project Name: Content Delivery with Azure CDN
+Aim: Speed up content delivery.
+
+Building Steps:
+1. Create an Azure CDN profile.
+2. Configure CDN endpoint.
+3. Link to content source.
+
+Tools and Prerequisites:
+- Azure CLI
+
+Required Services:
+- Azure CDN

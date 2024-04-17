@@ -1,0 +1,13 @@
+Project Name: Security with Azure Security Center
+Aim: Enhance cloud security posture.
+
+Building Steps:
+1. Set up Azure Security Center.
+2. Configure security policies.
+3. Monitor security alerts.
+
+Tools and Prerequisites:
+- Azure CLI
+
+Required Services:
+- Azure Security Center

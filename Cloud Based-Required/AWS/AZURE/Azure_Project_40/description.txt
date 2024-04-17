@@ -1,0 +1,13 @@
+Project Name: Azure Functions for Event-Driven Architectures
+Aim: Execute serverless functions in response to events.
+
+Building Steps:
+1. Set up Azure Functions App.
+2. Develop functions triggered by events.
+3. Deploy and monitor functions.
+
+Tools and Prerequisites:
+- Azure CLI
+
+Required Services:
+- Azure Functions

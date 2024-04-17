@@ -1,0 +1,13 @@
+Project Name: Messaging with Azure Service Bus
+Aim: Decouple application components.
+
+Building Steps:
+1. Create an Azure Service Bus namespace.
+2. Create queues or topics.
+3. Send/receive messages.
+
+Tools and Prerequisites:
+- Azure CLI
+
+Required Services:
+- Azure Service Bus

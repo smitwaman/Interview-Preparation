@@ -1,0 +1,13 @@
+Project Name: File Sharing with Azure Files
+Aim: Share file-based data across services.
+
+Building Steps:
+1. Create an Azure File Share.
+2. Mount to Azure Virtual Machines.
+
+Tools and Prerequisites:
+- Azure CLI
+- Azure Virtual Machines
+
+Required Services:
+- Azure Files

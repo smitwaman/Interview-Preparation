@@ -1,0 +1,13 @@
+Project Name: Network Security with Azure Firewall
+Aim: Protect network resources.
+
+Building Steps:
+1. Create Azure Firewall instance.
+2. Define network rules and policies.
+3. Monitor and manage firewall.
+
+Tools and Prerequisites:
+- Azure CLI
+
+Required Services:
+- Azure Firewall

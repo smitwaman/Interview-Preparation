@@ -1,0 +1,14 @@
+Project Name: Web App Deployment
+Aim: Deploy a web application using Azure Web Apps.
+
+Building Steps:
+1. Create an Azure Web App.
+2. Configure deployment settings.
+3. Deploy web application code.
+
+Tools and Prerequisites:
+- Azure CLI
+- Web application code
+
+Required Services:
+- Azure Web Apps
