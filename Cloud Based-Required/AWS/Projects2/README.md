@@ -85,7 +85,7 @@ This repository contains a collection of AWS cloud projects with descriptions an
 47. [Content Management With CMS](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_18)
 48. [Event Driven Architecture using SNS](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_19)
 49. [Serverless Websites with Amplify](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_20)
-40. [MediaConvert for Video Processing](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_10)
+50. [IoT with AWS IoT Core](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_21)
 
 
 
