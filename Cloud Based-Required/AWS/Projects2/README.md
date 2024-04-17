@@ -82,7 +82,7 @@ This repository contains a collection of AWS cloud projects with descriptions an
 44. [Serverless API using state functions](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_11)
 45. [Machine Learning with SageMaker](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_13)
 46. [DMS Database Migration](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_17)
-37. [Redshift Data Warehouse](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_10)
+47. [Content Management With CMS](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_18)
 38. [Elasticsearch Kibana for Analytics](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_10)
 39. [API Gateway Websockets](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_10)
 40. [MediaConvert for Video Processing](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_10)
