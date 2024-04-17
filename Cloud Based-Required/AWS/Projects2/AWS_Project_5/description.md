@@ -1,0 +1,16 @@
+# Project Name: Serverless API with Lambda and API Gateway
+## Aim
+Create a serverless API.
+
+## Building Steps
+1. Write Lambda function.
+2. Create API Gateway.
+3. Configure endpoints.
+
+## Tools and Prerequisites
+- AWS CLI
+- Lambda function code
+
+## Required Services
+- Lambda
+- API Gateway
