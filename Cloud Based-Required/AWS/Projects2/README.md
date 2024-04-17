@@ -44,7 +44,7 @@ This repository contains a collection of AWS cloud projects with descriptions an
 22. [S3 Static Website with HTTPS](22.%20S3%20Static%20Website%20with%20HTTPS)
 23. [CloudFormation Infrastructure as Code](23.%20CloudFormation%20Infrastructure%20as%20Code)
 24. [DynamoDB Streams and Lambda](24.%20DynamoDB%20Streams%20and%20Lambda)
-25. [AWS Batch for Batch Processing](25.%20AWS%20Batch%20for%20Batch%20Processing)
+25. [AWS Batch for Batch Processing](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_27)
 26. [Step Functions for Workflow Orchestration](26.%20Step%20Functions%20for%20Workflow%20Orchestration)
 27. [S3 Versioning and Lifecycle Policies](27.%20S3%20Versioning%20and%20Lifecycle%20Policies)
 28. [Athena for Interactive Querying](28.%20Athena%20for%20Interactive%20Querying)
