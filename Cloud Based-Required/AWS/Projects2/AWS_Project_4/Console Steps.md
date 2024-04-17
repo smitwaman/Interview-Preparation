@@ -8,14 +8,15 @@ Set up a relational database.
 
 # Required Services
 - RDS
-Sure! Here's a detailed guide to set up a relational database using Amazon RDS in the AWS Management Console:
+  
+Set up a relational database using Amazon RDS in the AWS Management Console:
 
 # Tools and Prerequisites
 - AWS Account
 - AWS CLI (Optional)
 - Database scripts (e.g., SQL scripts for database creation, tables, etc.)
 
-### Step 1: Launch RDS Instance
+# Step 1: Launch RDS Instance
 1. **Log in** to the AWS Management Console.
 2. Navigate to **Services** and select **RDS** under the Database category.
 3. Click **Create database**.
@@ -33,14 +34,14 @@ Sure! Here's a detailed guide to set up a relational database using Amazon RDS i
 9. Expand the **Additional configuration** section and configure other settings as per your requirements (e.g., VPC, Subnet group, Public accessibility).
 10. Click **Create database**.
 
-### Step 2: Choose Database Engine
+# Step 2: Choose Database Engine
 1. After creating the DB instance, select the **Engine type** based on your chosen database engine (e.g., MySQL, PostgreSQL).
 2. Choose the **DB instance class**:
    - Depending on your workload, select the appropriate instance class.
 3. Configure other engine-specific settings such as version, license model, etc.
 4. Click **Next**.
 
-### Step 3: Configure Database Settings
+# Step 3: Configure Database Settings
 1. Configure **DB instance size** and **Storage**:
    - Adjust the instance class and allocate storage based on your requirements.
 2. Configure **Availability & durability**:
@@ -53,7 +54,7 @@ Sure! Here's a detailed guide to set up a relational database using Amazon RDS i
    - Select **Password authentication** or **Password and IAM authentication** based on your preference.
 5. Click **Create database** to launch the RDS instance.
 
-### Final Steps
+# Final Steps
 1. Wait for the RDS instance to be **available**. This may take several minutes.
 2. Once the RDS instance is **available**, note down the **Endpoint** (hostname) and **Port**.
 3. Connect to the RDS instance using a database client or AWS CLI to execute your database scripts for creating databases, tables, etc.
