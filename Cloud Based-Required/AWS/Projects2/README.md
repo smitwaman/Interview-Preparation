@@ -24,7 +24,7 @@ This repository contains a collection of AWS cloud projects with descriptions an
 
 11. [CloudFront CDN Setup](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_7)
 12. [Lambda Functions with S3 Triggers](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_12)
-13. [API Gateway for Microservices](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_13)
+13. [API Gateway for Microservices](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_33)
 14. [Auto Scaling with EC2](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_14)
 15. [IAM Identity and Access Management](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_14)
 16. [VPC Virtual Private Cloud With Security Group](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_15)
