@@ -80,12 +80,12 @@ This repository contains a collection of AWS cloud projects with descriptions an
 42. [Load Balancing](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_3)
 43. [Container Orchestration With ECS](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_10)
 44. [Serverless API using state functions](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_11)
-35. [AppSync GraphQL API](35.%20AppSync%20GraphQL%20API)
-36. [EFS File Storage](36.%20EFS%20File%20Storage)
-37. [Redshift Data Warehouse](37.%20Redshift%20Data%20Warehouse)
-38. [Elasticsearch Kibana for Analytics](38.%20Elasticsearch%20Kibana%20for%20Analytics)
-39. [API Gateway Websockets](39.%20API%20Gateway%20Websockets)
-40. [MediaConvert for Video Processing](40.%20MediaConvert%20for%20Video%20Processing)
+35. [Machine Learning with SageMaker](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_13)
+36. [EFS File Storage](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_10)
+37. [Redshift Data Warehouse](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_10)
+38. [Elasticsearch Kibana for Analytics](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_10)
+39. [API Gateway Websockets](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_10)
+40. [MediaConvert for Video Processing](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_10)
 
 
 
