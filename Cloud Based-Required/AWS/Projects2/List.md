@@ -77,7 +77,7 @@ This repository contains a collection of AWS cloud projects with descriptions an
 ## Projects
 
 41. [Dynamic Website with EC2](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_2)
-32. [Aurora Database for Relational Storage](32.%20Aurora%20Database%20for%20Relational%20Storage)
+42. [Load Balancing](https://github.com/smitwaman/Interview-Preparation/tree/main/Cloud%20Based-Required%2FAWS%2FProjects2%2FAWS_Project_3)
 33. [Lambda Layers for Code Reusability](33.%20Lambda%20Layers%20for%20Code%20Reusability)
 34. [Transcribe for Speech to Text](34.%20Transcribe%20for%20Speech%20to%20Text)
 35. [AppSync GraphQL API](35.%20AppSync%20GraphQL%20API)
